@@ -311,6 +311,40 @@ time, mark, audio, video {
 
 
 /* CSS FOR CREDITS PAGE */	
+
+#squidPic {
+	position:absolute;
+	width: 786px;
+	height: 532px;
+	top: 460px;
+	left:-18px;
+	background-image: url(../images/squidsinblue.png);	
+}
+
+#creditTextTitle {
+	position:absolute;
+	text-align:justify;
+	font-family:'Baskerville';
+	color:#ccccff;
+	font-size:60px;
+	width:350px;
+	top:70px;
+	left:430px;
+}
+
+
+#creditTextEnd {
+	position:absolute;
+	text-align:justify;
+	font-family:'Baskerville';
+	color:#ccccff;
+	font-size:25px;
+	top:340px;
+	left:84px;
+}
+
+
+
 /* END OF CSS FOR CREDITS PAGE */	
 
 	

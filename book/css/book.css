@@ -30,6 +30,22 @@ time, mark, audio, video {
 
 /* End of browser reset styles */
 
+/* FONTS */
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Baskerville';
+    src: url('../fonts/BASKVILL.ttf') format('truetype');
+    /* src: url('../fonts/oswald/oswald-webfont.eot?#iefix') format('eot'), url('../fonts/oswald/oswald-webfont.woff') format('woff'), url('../fonts/oswald/oswald-webfont.ttf') format('truetype'), url('../fonts/oswald/oswald-webfont.svg#webfont1Pz3m7lF') format('svg'); */
+}
+
+
+/* END OF FONTS/*
+
+
+/* CSS FOR COVER PAGE */	
+
 
 	#wrapper {
 		width: 768px;
@@ -71,3 +87,101 @@ time, mark, audio, video {
 		background-image: url(../images/title.png);
 		
 	}
+	
+/* END OF CSS FOR COVER PAGE */	
+	
+	
+/* CSS FOR PAGE 001 */	
+	
+	#wrapper001 {
+		width: 768px;
+		height: 1024px;
+		text-align:left;
+		background-color: black;
+	}
+	
+	#handsBoy {
+		position:absolute;
+		width: 255px;
+		height: 603px;
+		top: 280px;
+		left: 140px;
+		background-image: url(../images/hands-boy.png);		
+	}
+	
+	#handsGirl {
+		position:absolute;
+		width: 243px;
+		height: 585px;
+		top: 280px;
+		left: 400px;
+		background-image: url(../images/hands-girl.png);		
+	}
+	
+	#handsTitle {
+		position:absolute;
+		width: 250px;
+		height: 171px;
+		top: 130px;
+		left: 310px;
+		background-image: url(../images/hands-text.png);		
+	}
+	
+/* END OF CSS FOR PAGE 001 */	
+	
+	
+/* CSS FOR PAGE 002 */	
+
+#wrapper002 {
+	width: 768px;
+	height: 1024px;
+	text-align:left;
+	background-color: #ccccff;
+}
+
+#farm {
+	position:absolute;
+	width: 776px;
+	height: 340px;
+	top: 650px;
+	left: auto;
+	background-image: url(../images/farm.png);		
+}
+
+#farmText1 {
+	position:absolute;
+	text-align:justify;
+	font-family:'Baskerville';
+	font-size:20px;
+	width:300px;
+	top:60px;
+	left:60px;
+}
+
+#farmText2 {
+	position:absolute;
+	text-align:justify;
+	font-family:'Baskerville';
+	font-size:20px;
+	width:300px;
+	top:60px;
+	right:60px;
+}
+
+
+/* END OF CSS FOR PAGE 002 */	
+	
+
+
+/* CSS FOR PAGE 003 */	
+/* END OF CSS FOR PAGE 003 */	
+
+
+/* CSS FOR PAGE 004 */	
+/* END OF CSS FOR PAGE 004 */	
+
+
+/* CSS FOR CREDITS PAGE */	
+/* END OF CSS FOR CREDITS PAGE */	
+
+	

@@ -151,7 +151,7 @@ time, mark, audio, video {
 #farmText1 {
 	position:absolute;
 	text-align:justify;
-	font-family:'Baskerville';
+	font-family:'Hoefler Text';
 	font-size:20px;
 	width:300px;
 	top:60px;
@@ -161,7 +161,7 @@ time, mark, audio, video {
 #farmText2 {
 	position:absolute;
 	text-align:justify;
-	font-family:'Baskerville';
+	font-family:'Hoefler Text';
 	font-size:20px;
 	width:300px;
 	top:60px;
@@ -207,7 +207,7 @@ time, mark, audio, video {
 #escapeText1 {
 	position:absolute;
 	text-align:justify;
-	font-family:'Baskerville';
+	font-family:'Hoefler Text';
 	font-size:20px;
 	width:600px;
 	top:60px;
@@ -250,7 +250,7 @@ time, mark, audio, video {
 #diggerText1 {
 	position:absolute;
 	text-align:center;
-	font-family:'Baskerville';
+	font-family:'Hoefler Text';
 	font-style:bold;
 	font-size:65px;
 	width:600px;
@@ -261,7 +261,7 @@ time, mark, audio, video {
 #diggerText2 {
 	position:absolute;
 	text-align:center;
-	font-family:'Baskerville';
+	font-family:'Hoefler Text';
 	font-size:30px;
 	width:600px;
 	top:770px;
@@ -288,7 +288,7 @@ time, mark, audio, video {
 #dangers {
 	position:absolute;
 	text-align:justify;
-	font-family:'Baskerville';
+	font-family:'Hoefler Text';
 	color:#996633;
 	font-style:bold;
 	font-size:60px;
@@ -299,7 +299,7 @@ time, mark, audio, video {
 #joys {
 	position:absolute;
 	text-align:justify;
-	font-family:'Baskerville';
+	font-family:'Hoefler Text';
 	color:#996633;
 	font-size:60px;
 	top:930px;
@@ -324,7 +324,7 @@ time, mark, audio, video {
 #creditTextTitle {
 	position:absolute;
 	text-align:justify;
-	font-family:'Baskerville';
+	font-family:'Hoefler Text';
 	color:#ccccff;
 	font-size:60px;
 	width:350px;
@@ -336,7 +336,7 @@ time, mark, audio, video {
 #creditTextEnd {
 	position:absolute;
 	text-align:justify;
-	font-family:'Baskerville';
+	font-family:'Hoefler Text';
 	color:#ccccff;
 	font-size:25px;
 	top:340px;

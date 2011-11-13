@@ -174,11 +174,140 @@ time, mark, audio, video {
 
 
 /* CSS FOR PAGE 003 */	
+
+#wrapper003 {
+	width: 768px;
+	height: 1024px;
+	text-align:left;
+	background-color: #ccccff;
+}
+
+#crimbg {
+	position:absolute;
+	width: 536px;
+	height: 800px;
+	top: auto;
+	left: auto;
+	background-image: url(../images/criminals.jpg);		
+}
+
 /* END OF CSS FOR PAGE 003 */	
 
 
 /* CSS FOR PAGE 004 */	
+
+#wrapper004 {
+	width: 768px;
+	height: 1024px;
+	text-align:left;
+	background-color: #ccccff;
+}
+
+
+#escapeText1 {
+	position:absolute;
+	text-align:justify;
+	font-family:'Baskerville';
+	font-size:20px;
+	width:600px;
+	top:60px;
+	left:84px;
+}
+
+#pianoPic {
+	position:relative;
+	width: 328px;
+	height: 365px;
+	margin-top: 10px;
+	margin-right: 10px;
+	float: left;
+	background-image: url(../images/piano.png);	
+	display:block;	
+}
+
+
 /* END OF CSS FOR PAGE 004 */	
+
+
+/* CSS FOR PAGE 005 */	
+
+#wrapper005 {
+	width: 768px;
+	height: 1024px;
+	text-align:left;
+	background-color: #cc9966;
+}
+
+#diggerPic {
+	position:absolute;
+	width: 498px;
+	height: 521px;
+	top: 80px;
+	left: 135px;
+	background-image: url(../images/digger.png);	
+}
+
+#diggerText1 {
+	position:absolute;
+	text-align:center;
+	font-family:'Baskerville';
+	font-style:bold;
+	font-size:65px;
+	width:600px;
+	top:670px;
+	left:84px;
+}
+
+#diggerText2 {
+	position:absolute;
+	text-align:center;
+	font-family:'Baskerville';
+	font-size:30px;
+	width:600px;
+	top:770px;
+	left:84px;
+}
+
+
+
+/* END OF CSS FOR PAGE 004 */	
+
+
+/* CSS FOR PAGE 005 */	
+
+
+#peacock {
+	position:absolute;
+	width: 700px;
+	height: 1007px;
+	top: 10px;
+	left: 40px;
+	background-image: url(../images/peacock.jpg);	
+}
+
+#dangers {
+	position:absolute;
+	text-align:justify;
+	font-family:'Baskerville';
+	color:#996633;
+	font-style:bold;
+	font-size:60px;
+	top:20px;
+	left:20px;
+}
+
+#joys {
+	position:absolute;
+	text-align:justify;
+	font-family:'Baskerville';
+	color:#996633;
+	font-size:60px;
+	top:930px;
+	left:630px;
+}
+
+/* END OF CSS FOR PAGE 005 */	
+
 
 
 /* CSS FOR CREDITS PAGE */	

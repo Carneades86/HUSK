@@ -41,7 +41,66 @@ time, mark, audio, video {
 }
 
 
-/* END OF FONTS/*
+/* END OF FONTS */
+
+
+
+/* ANIMATIONS */
+
+@-webkit-keyframes appear {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.appear {
+	-webkit-animation-name: appear;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 2s;
+}
+
+@-webkit-keyframes disappear {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.disappear {
+	-webkit-animation-name: disappear;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 2.5s;
+}
+
+
+@-webkit-keyframes boymove {
+	0% {
+		margin-left: 0;
+		}
+	to {
+		margin-top: 20px;
+		margin-left: 440px;
+		}
+		
+.boymove {
+	-webkit-animation-name: disappear;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-iteration-count: 1;	
+	-webkit-animation-duration: 2.5s;
+	}
+
+
+/* END OF ANIMATIONS */
+
+
 
 
 /* CSS FOR COVER PAGE */	
@@ -100,16 +159,18 @@ time, mark, audio, video {
 		background-color: black;
 	}
 	
-	#handsBoy {
+	.handsBoy {
 		position:absolute;
 		width: 255px;
 		height: 603px;
+		/* top: 260px;
+		left: -300px; */
 		top: 280px;
 		left: 140px;
 		background-image: url(../images/hands-boy.png);		
 	}
 	
-	#handsGirl {
+	.handsGirl {
 		position:absolute;
 		width: 243px;
 		height: 585px;
@@ -118,7 +179,7 @@ time, mark, audio, video {
 		background-image: url(../images/hands-girl.png);		
 	}
 	
-	#handsTitle {
+	.handsTitle {
 		position:absolute;
 		width: 250px;
 		height: 171px;
@@ -143,31 +204,236 @@ time, mark, audio, video {
 	position:absolute;
 	width: 776px;
 	height: 340px;
-	top: 650px;
+	top: 680px;
 	left: auto;
 	background-image: url(../images/farm.png);		
 }
+
 
 #farmText1 {
 	position:absolute;
 	text-align:justify;
 	font-family:'Hoefler Text';
-	font-size:20px;
-	width:300px;
-	top:60px;
-	left:60px;
+	font-size:15px;
+	width:330px;
+	top:40px;
+	left:30px;
+	
 }
+
+.titleCrickets {
+	opacity:1;
+	position:absolute;
+	text-align:justify;
+	font-family:'Hoefler Text';
+	font-size:70px;
+	top:170px;
+	left: 80px;
+}
+
+.subCrickets {
+	opacity:1;
+	position:absolute;
+	text-align:justify;
+	font-family:'Hoefler Text';
+	font-size:40px;
+	top:380px;
+	left: 350px;
+}
+
+
+#speech1Pic {
+	position:absolute;
+	width: 94px;
+	height: 119px;
+	top: 600px;
+	left: 160px;
+	background-image: url(../images/speech2.png);	
+}
+
+#speech2Pic {
+	position:absolute;
+	width: 78px;
+	height: 127px;
+	top: 570px;
+	left: 460px;
+	background-image: url(../images/speech1.png);	
+}
+
+
+.one1 {
+	opacity:0;
+	position:relative;
+	margin-top:10px;
+}
+
+.one2 {
+	opacity:0;
+	position:relative;
+	margin-top:10px;
+}
+
+.one3 {
+	opacity:0;
+	position:relative;
+	margin-top:10px;
+}
+
+.one4 {
+	opacity:0;
+	position:relative;
+	margin-top:10px;
+}
+
+.one5 {
+	opacity:0;
+	position:relative;
+	margin-top:10px;
+}
+
+.one6 {
+	opacity:0;
+	position:relative;
+	top:10px;
+}
+
+.one7 {
+	opacity:0;
+	position:relative;
+	margin-top:20px;
+}
+
+.one8 {
+	opacity:0;
+	position:relative;
+	margin-top:10px;
+}
+
+.one9 {
+	opacity:0;
+	position:relative;
+	margin-top:10px;
+}
+
+.one10 {
+	opacity:0;
+	position:relative;
+	margin-top:10px;
+}
+
+.one11 {
+	opacity:0;
+	position:relative;
+	margin-top:30px;
+}
+
+.one12 {
+	opacity:0;
+	position:relative;
+	margin-top:10px;
+}
+
+.one13 {
+	opacity:0;
+	position:relative;
+	margin-top:30px;
+}
+
+.one14 {
+	opacity:0;
+	position:relative;
+	margin-top:30px;
+}
+
+
 
 #farmText2 {
 	position:absolute;
 	text-align:justify;
 	font-family:'Hoefler Text';
-	font-size:20px;
-	width:300px;
-	top:60px;
-	left:420px;
+	font-size:15px;
+	width:330px;
+	top:40px;
+	left:400px;
 }
 
+.two1 {
+	opacity:0;
+	position:relative;
+	margin-top:10px;
+}
+
+.two2 {
+	opacity:0;
+	position:relative;
+	margin-top:25px;
+}
+
+.two3 {
+	opacity:0;
+	position:relative;
+	margin-top:23px;
+}
+
+.two4 {
+	opacity:0;
+	position:relative;
+	margin-top:30px;
+}
+
+.two5 {
+	opacity:0;
+	position:relative;
+	margin-top:10px;
+}
+
+.two6 {
+	opacity:0;
+	position:relative;
+	margin-top:53px;
+}
+
+.two7 {
+	opacity:0;
+	position:relative;
+	margin-top:10px;
+}
+
+.two8 {
+	opacity:0;
+	position:relative;
+	margin-top:10px;
+}
+
+.two9 {
+	opacity:0;
+	position:relative;
+	margin-top:22px;
+}
+
+.two10 {
+	opacity:0;
+	position:relative;
+	margin-top:14px;
+}
+
+.two11 {
+	opacity:0;
+	position:relative;
+	margin-top:15px;
+}
+
+.two12 {
+	opacity:0;
+	position:relative;
+	margin-top:10px;
+}
+
+.two13 {
+	opacity:0;
+	position:relative;
+	margin-top:45px;
+}
 
 /* END OF CSS FOR PAGE 002 */	
 	

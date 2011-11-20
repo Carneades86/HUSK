@@ -165,7 +165,7 @@ time, mark, audio, video {
 
 .covertitleappear {
 	-webkit-animation-name: covertitleappear;
-	-webkit-animation-timing-function: linear;
+	-webkit-animation-timing-function: ease-in;
 	-webkit-animation-fill-mode: forwards;
 	-webkit-animation-duration: 6s;
 }
@@ -716,6 +716,12 @@ time, mark, audio, video {
 
 /* CSS FOR PAGE 005 */	
 
+#wrapper006 {
+	width: 768px;
+	height: 1024px;
+	text-align:left;
+	background-color: black;
+}
 
 #peacock {
 	position:absolute;
@@ -737,6 +743,19 @@ time, mark, audio, video {
 	left:20px;
 }
 
+#thedangers {
+	opacity:0;
+	position:absolute;
+	text-align:justify;
+	font-family:'Hoefler Text';
+	color:#996655;
+	font-style:bold;
+	font-size:30px;
+	top:120px;
+	left:20px;
+	width:730px;
+}
+
 #joys {
 	position:absolute;
 	text-align:justify;
@@ -745,6 +764,19 @@ time, mark, audio, video {
 	font-size:60px;
 	top:930px;
 	left:630px;
+}
+
+#thejoys {
+	opacity:0;
+	position:absolute;
+	text-align:justify;
+	font-family:'Hoefler Text';
+	color:#996655;
+	font-style:bold;
+	font-size:30px;
+	top:550px;
+	left:20px;
+	width:730px;
 }
 
 /* END OF CSS FOR PAGE 005 */	

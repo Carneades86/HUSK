@@ -167,6 +167,36 @@ setTimeout(function() {
 																																								
 																																											
 																																											one1.removeClass('appear');
+																																											one2.removeClass('appear');
+																																											one3.removeClass('appear');
+																																											one4.removeClass('appear');
+																																											one5.removeClass('appear');
+																																											one6.removeClass('appear');
+																																											one7.removeClass('appear');
+																																											one8.removeClass('appear');
+																																											one9.removeClass('appear');
+																																											one10.removeClass('appear');
+																																											one11.removeClass('appear');
+																																											one12.removeClass('appear');
+																																											one13.removeClass('appear');
+																																											one14.removeClass('appear');
+																																											two1.removeClass('appear');
+																																											two2.removeClass('appear');
+																																											two3.removeClass('appear');
+																																											two4.removeClass('appear');
+																																											two5.removeClass('appear');
+																																											two6.removeClass('appear');
+																																											two7.removeClass('appear');
+																																											two8.removeClass('appear');
+																																											two9.removeClass('appear');
+																																											two10.removeClass('appear');
+																																											two11.removeClass('appear');
+																																											two12.removeClass('appear');
+																																											two13.removeClass('appear');
+																																											
+		
+																																											
+																																											
 																																											one1.addClass('disappear');
 																																											one2.addClass('disappear');
 																																											one3.addClass('disappear');
@@ -195,10 +225,38 @@ setTimeout(function() {
 																																											two12.addClass('disappear');
 																																											two13.addClass('disappear');
 																																											
-																																											one1.removeClass('disapper');
-																																											one1.opacity = 0;
-																																											
+																																											setTimeout(function() {
+																																												one1.removeClass('disappear');																																												
+																																												one2.removeClass('disappear');
+																																												one3.removeClass('disappear');
+																																												one4.removeClass('disappear');
+																																												one5.removeClass('disappear');
+																																												one6.removeClass('disappear');
+																																												one7.removeClass('disappear');
+																																												one8.removeClass('disappear');
+																																												one9.removeClass('disappear');
+																																												one10.removeClass('disappear');
+																																												one11.removeClass('disappear');
+																																												one12.removeClass('disappear');
+																																												one13.removeClass('disappear');
+																																												one14.removeClass('disappear');
+																																												two1.removeClass('disappear');
+																																												two2.removeClass('disappear');
+																																												two3.removeClass('disappear');
+																																												two4.removeClass('disappear');
+																																												two5.removeClass('disappear');
+																																												two6.removeClass('disappear');
+																																												two7.removeClass('disappear');
+																																												two8.removeClass('disappear');
+																																												two9.removeClass('disappear');
+																																												two10.removeClass('disappear');
+																																												two11.removeClass('disappear');
+																																												two12.removeClass('disappear');
+																																												two13.removeClass('disappear');
+																																												}, 3500 );	
+																																																																																						
 																																											animating = false;
+																																											
 																																											
 																																																																																					
 																																											}, 1000);

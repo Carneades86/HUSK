@@ -3,20 +3,24 @@ jQuery(document).ready(function() {
 	
 });
 
-
 jQuery(function() {
 
 
-	jQuery('#handsTitle').click(function(e) {
-
-	var handsBoy = jQuery('.handsBoy');
-	
-	handsBoy.addClass('boymove');
+	jQuery('#cowSmall').click(function(e) {
+		
+		var smow = jQuery('#cowSmall');
+		
+		smow.addClass('littlecowclick');
+		
+		setTimeout(function() {	
+			smow.removeClass('littlecowclick');
+			smow.removeClass('littlecow');
+		}, 7500);
 
 	});
 	
 
-});	
+});
 
 
 

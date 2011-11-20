@@ -721,6 +721,8 @@ time, mark, audio, video {
 	height: 1024px;
 	text-align:left;
 	background-color: #cc9966;
+	background-image: url(../images/orangebg2.png);	
+	
 }
 
 #diggerPic {

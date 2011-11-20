@@ -288,6 +288,8 @@ time, mark, audio, video {
 		height: 1024px;
 		text-align:left;
 		background-color: #ccccff;
+		background-image: url(../images/bluebg.png);
+		
 	}
 	
 	#cowLarge {
@@ -373,6 +375,7 @@ time, mark, audio, video {
 	height: 1024px;
 	text-align:left;
 	background-color: #ccccff;
+	background-image: url(../images/greenbg.png);
 }
 
 #farm {
@@ -625,12 +628,53 @@ time, mark, audio, video {
 
 #crimbg {
 	position:absolute;
-	width: 536px;
-	height: 800px;
+	width: 768px;
+	height: 1024px;
 	top: auto;
 	left: auto;
-	background-image: url(../images/criminals.jpg);		
+	background-image: url(../images/crimbg2.png);		
 }
+
+#topleft {
+	opacity:0;
+	position:absolute;
+	width: 263px;
+	height: 405px;
+	top: 159px;
+	left: 114px;
+	background-image: url(../images/topleft.png);		
+}
+
+#topright {
+	opacity:0;
+	position:absolute;
+	width: 257px;
+	height: 402px;
+	top: 162px;
+	left: 406px;
+	background-image: url(../images/topright.png);		
+}
+
+#bottomleft {
+	opacity:0;
+	position:absolute;
+	width: 261px;
+	height: 414px;
+	top: 595px;
+	left: 111px;
+	background-image: url(../images/bottomleft.png);		
+}
+
+#bottomright {
+	opacity:0;
+	position:absolute;
+	width: 266px;
+	height: 417px;
+	top: 592px;
+	left: 398px;
+	background-image: url(../images/bottomright.png);		
+}
+
 
 /* END OF CSS FOR PAGE 003 */	
 

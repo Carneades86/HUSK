@@ -71,9 +71,9 @@ jQuery(function() {
 		title1.removeClass('title1active');
 		title1.addClass('title1up');
 		
-		title2.addClass('title2up')
+		title2.addClass('title2up');
 		
-		title3.addClass('title3active')
+		title3.addClass('title3active');
 		
 		text1.addClass('escdisappear');
 		text3.addClass('escappear');
@@ -93,10 +93,10 @@ jQuery(function() {
 		title1.removeClass('title1active');
 		title1.addClass('title1up');
 		
-		title2.addClass('title2up')
-		title3.addClass('title3up')
+		title2.addClass('title2up');
+		title3.addClass('title3up');
 		
-		title4.addClass('title4active')
+		title4.addClass('title4active');
 		
 		text1.addClass('escdisappear');
 		text4.addClass('escappear');
@@ -116,11 +116,11 @@ jQuery(function() {
 		title1.removeClass('title1active');
 		title1.addClass('title1up');
 		
-		title2.addClass('title2up')
-		title3.addClass('title3up')
-		title4.addClass('title4up')
+		title2.addClass('title2up');
+		title3.addClass('title3up');
+		title4.addClass('title4up');
 		
-		title5.addClass('title5active')
+		title5.addClass('title5active');
 		
 		text1.addClass('escdisappear');
 		text5.addClass('escappear');
@@ -140,18 +140,126 @@ jQuery(function() {
 		title1.removeClass('title1active');
 		title1.addClass('title1up');
 		
-		title2.addClass('title2up')
-		title3.addClass('title3up')
-		title4.addClass('title4up')	
-		title5.addClass('title6up')
+		title2.addClass('title2up');
+		title3.addClass('title3up');
+		title4.addClass('title4up');
+		title5.addClass('title5up');
 		
-		title6.addClass('title6active')
+		title6.addClass('title6active');
 		
 		text1.addClass('escdisappear');
 		text6.addClass('escappear');
 		
 		setTimeout(function() {	
-			animating = 'five'
+			animating = 'six'
+		}, 2000);
+	
+		}
+		
+	});
+	
+	jQuery('#escapeTitle7').click(function(e) {
+		
+		if (animating == 'one') {
+		
+		title1.removeClass('title1active');
+		title1.addClass('title1up');
+		
+		title2.addClass('title2up');
+		title3.addClass('title3up');
+		title4.addClass('title4up');
+		title5.addClass('title5up');
+		title6.addClass('title6up');
+				
+		title7.addClass('title7active')
+		
+		text1.addClass('escdisappear');
+		text7.addClass('escappear');
+		
+		setTimeout(function() {	
+			animating = 'seven'
+		}, 2000);
+	
+		}
+		
+	});
+	
+	jQuery('#escapeTitle8').click(function(e) {
+		
+		if (animating == 'one') {
+		
+		title1.removeClass('title1active');
+		title1.addClass('title1up');
+		
+		title2.addClass('title2up');
+		title3.addClass('title3up');
+		title4.addClass('title4up');	
+		title5.addClass('title5up');
+		title6.addClass('title6up');
+		title7.addClass('title7up');
+		
+		title8.addClass('title8active');
+		
+		text1.addClass('escdisappear');
+		text8.addClass('escappear');
+		
+		setTimeout(function() {	
+			animating = 'eight'
+		}, 2000);
+	
+		}
+		
+	});
+	
+	jQuery('#escapeTitle9').click(function(e) {
+		
+		if (animating == 'one') {
+		
+		title1.removeClass('title1active');
+		title1.addClass('title1up');
+		
+		title2.addClass('title2up');
+		title3.addClass('title3up');
+		title4.addClass('title4up');	
+		title5.addClass('title5up');
+		title6.addClass('title6up');
+		title7.addClass('title7up');
+		title8.addClass('title8up');
+		
+		title9.addClass('title9activ');
+		
+		text1.addClass('escdisappear');
+		text9.addClass('escappear');
+		
+		setTimeout(function() {	
+			animating = 'nine'
+		}, 2000);
+	
+		}
+		
+	});
+	
+	jQuery('#escapeTitle10').click(function(e) {
+		
+		if (animating == 'one') {
+		
+		title1.removeClass('title1active');
+		title1.addClass('title1up');
+		
+		title2.addClass('title2up');
+		title3.addClass('title3up');
+		title4.addClass('title4up');	
+		title5.addClass('title5up');
+		title6.addClass('title6up');
+		title7.addClass('title7up');
+		title8.addClass('title8up');
+		title9.addClass('title9up');
+		
+		text1.addClass('escdisappear');
+		text10.addClass('escappear');
+		
+		setTimeout(function() {	
+			animating = 'ten'
 		}, 2000);
 	
 		}

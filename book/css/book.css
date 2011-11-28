@@ -681,6 +681,380 @@ time, mark, audio, video {
 
 /* CSS FOR PAGE 004 */	
 
+@-webkit-keyframes escappear {
+	0% {
+		opacity: 0;
+	}
+43% {
+	opacity: 0;
+}
+	100% {
+		opacity: 1;
+	}
+}
+
+.escappear {
+	-webkit-animation-name: escappear;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 4.2s;
+}
+
+@-webkit-keyframes escdisappear {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+.escdisappear {
+	-webkit-animation-name: escdisappear;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 2s;
+}
+
+
+@-webkit-keyframes titleoneup {
+	0% {
+	}
+	25% {
+		opacity:0.6;
+	}
+	50% {
+		top:170px;
+		opacity: 0.6;
+		font-size:30px;
+	}
+	100% {
+		top:170px;
+		opacity: 0.6;
+		font-size:30px;
+	}
+
+}
+
+.title1up {
+	-webkit-animation-name: titleoneup;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titletwoactive {
+	0% {
+	}
+	50% {
+		top:255px;
+		font-size:30px;	
+		opacity:1;	
+	}
+	100% {
+		top:255px;
+		font-size:40px;
+		opacity:1;	
+	}
+}
+
+.title2active {
+	-webkit-animation-name: titletwoactive;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titletwoup {
+
+	
+	0% {
+	}
+	50% {
+		top:218px;
+		opacity: 0.6;
+	}
+	100% {
+		top:218px;
+		opacity: 0.6;
+		font-size:30px;
+	}
+}
+
+.title2up {
+	-webkit-animation-name: titletwoup;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titlethreeactive {
+	0% {
+	}
+	50% {
+		top:290px;
+		font-size:30px;
+		opacity:1;	
+	}
+	100% {
+		top:290px;
+		font-size:40px;
+		opacity:1;	
+	}
+}
+
+.title3active {
+	-webkit-animation-name: titlethreeactive;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titlethreeup {
+
+	
+	0% {
+	}
+	50% {
+		top:263px;
+		opacity: 0.6;
+	}
+	100% {
+		top:263px;
+		opacity: 0.6;
+		font-size:30px;
+	}
+}
+
+.title3up {
+	-webkit-animation-name: titlethreeup;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titlefouractive {
+	0% {
+	}
+	50% {
+		top:350px;
+		font-size:30px;
+		opacity:1;	
+	}
+	100% {
+		top:350px;
+		font-size:40px;
+		opacity:1;	
+	}
+}
+
+.title4active {
+	-webkit-animation-name: titlefouractive;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titlefourup {
+
+	
+	0% {
+	}
+	50% {
+		top:308px;
+		opacity: 0.6;
+	}
+	100% {
+		top:308px;
+		opacity: 0.6;
+		font-size:30px;
+	}
+}
+
+.title4up {
+	-webkit-animation-name: titlefourup;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titlefiveactive {
+	0% {
+	}
+	50% {
+		top:430px;
+		font-size:30px;
+		opacity:1;	
+	}
+	100% {
+		top:430px;
+		font-size:40px;
+		opacity:1;	
+	}
+}
+
+.title5active {
+	-webkit-animation-name: titlefiveactive;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+
+@-webkit-keyframes titlefiveup {
+
+	
+	0% {
+	}
+	50% {
+		top:353px;
+		opacity: 0.6;
+	}
+	100% {
+		top:353px;
+		opacity: 0.6;
+		font-size:30px;
+	}
+}
+
+.title5up {
+	-webkit-animation-name: titlefiveup;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titlesixactive {
+	0% {
+	}
+	50% {
+		top:430px;
+		font-size:30px;
+		opacity:1;	
+	}
+	100% {
+		top:430px;
+		font-size:40px;
+		opacity:1;	
+	}
+}
+
+.title6active {
+	-webkit-animation-name: titlesixactive;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titlesixup {
+
+	
+	0% {
+	}
+	50% {
+		top:398px;
+		opacity: 0.6;
+	}
+	100% {
+		top:398px;
+		opacity: 0.6;
+		font-size:30px;
+	}
+}
+
+.title6up {
+	-webkit-animation-name: titlesixup;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+
+@-webkit-keyframes titlesevenup {
+
+	
+	0% {
+	}
+	50% {
+		top:443px;
+		opacity: 0.6;
+	}
+	100% {
+		top:443px;
+		opacity: 0.6;
+		font-size:30px;
+	}
+}
+
+.title7up {
+	-webkit-animation-name: titlesevenup;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titleeightup {
+
+	
+	0% {
+	}
+	50% {
+		top:488px;
+		opacity: 0.6;
+	}
+	100% {
+		top:488px;
+		opacity: 0.6;
+		font-size:30px;
+	}
+}
+
+.title8up {
+	-webkit-animation-name: titleeightup;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titlenineup {
+
+	
+	0% {
+	}
+	50% {
+		top:533px;
+		opacity: 0.6;
+	}
+	100% {
+		top:533px;
+		opacity: 0.6;
+		font-size:30px;
+	}
+}
+
+.title9up {
+	-webkit-animation-name: titlenineup;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+
 #wrapper004 {
 	width: 768px;
 	height: 1024px;
@@ -688,8 +1062,230 @@ time, mark, audio, video {
 	background-color: #ccccff;
 }
 
+#escapeTitle {
+	position:absolute;
+	text-align:center;
+	font-family:'Hoefler Text';
+	font-size:60px;
+	width:600px;
+	top:50px;
+	left:84px;
+}
+
+#escapeTitle1 {
+	position:absolute;
+	text-align:right;
+	font-family:'Hoefler Text';
+	font-size:40px;
+	width:600px;
+	top:240px;
+	left:84px;
+}
+
 
 #escapeText1 {
+	position:absolute;
+	text-align:justify;
+	font-family:'Hoefler Text';
+	font-size:30px;
+	width:600px;
+	top:320px;
+	left:84px;
+}
+
+#escapeTitle2 {
+	opacity: 0.6;
+	position:absolute;
+	text-align:right;
+	font-family:'Hoefler Text';
+	font-size:30px;
+	width:600px;
+	top:600px;
+	left:84px;
+}
+
+
+
+#escapeText2 {
+	opacity:0;
+	position:absolute;
+	text-align:justify;
+	font-family:'Hoefler Text';
+	font-size:35px;
+	width:600px;
+	top:320px;
+	left:84px;
+}
+
+#escapeTitle3 {
+	opacity: 0.6;
+	position:absolute;
+	text-align:right;
+	font-family:'Hoefler Text';
+	font-size:30px;
+	width:600px;
+	top:645px;
+	left:84px;
+}
+
+#escapeText3 {
+	opacity:0;
+	position:absolute;
+	text-align:justify;
+	font-family:'Hoefler Text';
+	font-size:35px;
+	width:600px;
+	top:360px;
+	left:84px;
+}
+
+#escapeTitle4 {
+	opacity: 0.6;
+	position:absolute;
+	text-align:right;
+	font-family:'Hoefler Text';
+	font-size:30px;
+	width:600px;
+	top:690px;
+	left:84px;
+}
+
+#escapeText4 {
+	opacity:0;
+	position:absolute;
+	text-align:justify;
+	font-family:'Hoefler Text';
+	font-size:35px;
+	width:600px;
+	top:430px;
+	left:84px;
+}
+
+#escapeTitle5 {
+	opacity: 0.6;
+	position:absolute;
+	text-align:right;
+	font-family:'Hoefler Text';
+	font-size:30px;
+	width:600px;
+	top:735px;
+	left:84px;
+}
+
+#escapeText5 {
+	opacity:0;
+	position:absolute;
+	text-align:justify;
+	font-family:'Hoefler Text';
+	font-size:35px;
+	width:600px;
+	top:500px;
+	left:84px;
+}
+
+#escapeTitle6 {
+	opacity: 0.6;
+	position:absolute;
+	text-align:right;
+	font-family:'Hoefler Text';
+	font-size:30px;
+	width:600px;
+	top:780px;
+	left:84px;
+}
+
+#escapeText6 {
+	opacity:0;
+	position:absolute;
+	text-align:justify;
+	font-family:'Hoefler Text';
+	font-size:20px;
+	width:600px;
+	top:60px;
+	left:84px;
+}
+
+#escapeTitle7 {
+	opacity: 0.6;
+	position:absolute;
+	text-align:right;
+	font-family:'Hoefler Text';
+	font-size:30px;
+	width:600px;
+	top:825px;
+	left:84px;
+}
+
+#escapeText7 {
+	opacity:0;
+	position:absolute;
+	text-align:justify;
+	font-family:'Hoefler Text';
+	font-size:20px;
+	width:600px;
+	top:60px;
+	left:84px;
+}
+
+#escapeTitle8 {
+	opacity: 0.6;
+	position:absolute;
+	text-align:right;
+	font-family:'Hoefler Text';
+	font-size:30px;
+	width:600px;
+	top:870px;
+	left:84px;
+}
+
+#escapeText8 {
+	opacity:0;
+	position:absolute;
+	text-align:justify;
+	font-family:'Hoefler Text';
+	font-size:20px;
+	width:600px;
+	top:60px;
+	left:84px;
+}
+
+#escapeTitle9 {
+	opacity: 0.6;
+	position:absolute;
+	text-align:right;
+	font-family:'Hoefler Text';
+	font-size:30px;
+	width:600px;
+	top:915px;
+	left:84px;
+}
+
+
+#escapeText9 {
+	opacity:0;
+	position:absolute;
+	text-align:justify;
+	font-family:'Hoefler Text';
+	font-size:20px;
+	width:600px;
+	top:60px;
+	left:84px;
+}
+
+#escapeTitle10 {
+	opacity: 0.6;
+	position:absolute;
+	text-align:right;
+	font-family:'Hoefler Text';
+	font-size:30px;
+	width:600px;
+	top:960px;
+	left:84px;
+}
+
+
+#escapeText10 {
+	opacity:0;
 	position:absolute;
 	text-align:justify;
 	font-family:'Hoefler Text';

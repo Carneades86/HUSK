@@ -717,6 +717,33 @@ time, mark, audio, video {
 	-webkit-animation-duration: 2s;
 }
 
+@-webkit-keyframes titleoneactive {
+	0% {
+			top:170px;
+			opacity: 0.6;
+			font-size:30px;
+		
+	}
+	50% {
+		top:240px;
+		font-size:30px;	
+		opacity:1;	
+	}
+	100% {
+		top:240px;
+		font-size:40px;
+		opacity:1;	
+	}
+}
+
+.title1active {
+	-webkit-animation-name: titleoneactive;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
 
 @-webkit-keyframes titleoneup {
 	0% {
@@ -792,6 +819,61 @@ time, mark, audio, video {
     
 }
 
+@-webkit-keyframes titletwoactivefromup {
+
+	
+	0% {
+		top:218px;
+		opacity: 0.6;
+		font-size:30px;
+	}
+	50% {
+		top:255px;
+		font-size:30px;	
+		opacity:1;
+	}
+	100% {
+		top:255px;
+		font-size:40px;
+		opacity:1;
+	}
+}
+
+.title2activefromup {
+	-webkit-animation-name: titletwoactivefromup;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+
+
+@-webkit-keyframes titletwodown {
+	0% {
+		top:255px;
+		font-size:40px;
+		opacity:1;
+	}
+	50% {
+		opacity:0.6;
+	}
+	100% {
+		font-size:30px;
+		opacity:0.6;
+		top:600px;
+		
+	}
+}
+
+.title2down {
+	-webkit-animation-name: titletwodown;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
 @-webkit-keyframes titlethreeactive {
 	0% {
 	}
@@ -833,6 +915,56 @@ time, mark, audio, video {
 
 .title3up {
 	-webkit-animation-name: titlethreeup;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titlethreedown {
+	0% {
+		top:290px;
+		font-size:40px;
+		opacity:1;
+	}
+	50% {
+		opacity:0.6;
+	}
+	100% {
+		font-size:30px;
+		opacity:0.6;
+		top:645px;
+		
+	}
+}
+
+.title3down {
+	-webkit-animation-name: titlethreedown;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titlethreedownfromup {
+	0% {
+		top:263px;
+		font-size:30px;
+		opacity:0.6;
+	}
+	50% {
+		opacity:0.6;
+	}
+	100% {
+		font-size:30px;
+		opacity:0.6;
+		top:645px;
+		
+	}
+}
+
+.title3downfromup {
+	-webkit-animation-name: titlethreedownfromup;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-fill-mode: forwards;
 	-webkit-animation-duration: 3s;
@@ -886,6 +1018,58 @@ time, mark, audio, video {
     
 }
 
+
+@-webkit-keyframes titlefourdown {
+	0% {
+		top:350px;
+		font-size:40px;
+		opacity:1;
+	}
+	50% {
+		opacity:0.6;
+	}
+	100% {
+		font-size:30px;
+		opacity:0.6;
+		top:690px;
+		
+	}
+}
+
+.title4down {
+	-webkit-animation-name: titlefourdown;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titlefourdownfromup {
+	0% {
+		top:308px;
+		opacity: 0.6;
+		font-size:30px;
+	}
+	50% {
+		opacity:0.6;
+	}
+	100% {
+		font-size:30px;
+		opacity:0.6;
+		top:690px;
+		
+	}
+}
+
+.title4downfromup {
+	-webkit-animation-name: titlefourdownfromup;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+
 @-webkit-keyframes titlefiveactive {
 	0% {
 	}
@@ -928,6 +1112,56 @@ time, mark, audio, video {
 
 .title5up {
 	-webkit-animation-name: titlefiveup;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titlefivedown {
+	0% {
+		top:430px;
+		font-size:40px;
+		opacity:1;
+	}
+	50% {
+		opacity:0.6;
+	}
+	100% {
+		font-size:30px;
+		opacity:0.6;
+		top:735px;
+		
+	}
+}
+
+.title5down {
+	-webkit-animation-name: titlefivedown;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titlefivedownfromup {
+	0% {
+			top:353px;
+			opacity: 0.6;
+			font-size:30px;
+	}
+	50% {
+		opacity:0.6;
+	}
+	100% {
+			font-size:30px;
+			opacity:0.6;
+			top:735px;
+		
+	}
+}
+
+.title5downfromup {
+	-webkit-animation-name: titlefivedownfromup;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-fill-mode: forwards;
 	-webkit-animation-duration: 3s;
@@ -982,6 +1216,81 @@ time, mark, audio, video {
 }
 
 
+@-webkit-keyframes titlesixdown {
+	0% {
+			top:430px;
+			font-size:40px;
+			opacity:1;
+	}
+	50% {
+		opacity:0.6;
+	}
+	100% {
+		font-size:30px;
+		opacity:0.6;
+		top:780px;
+		
+	}
+}
+
+.title6down {
+	-webkit-animation-name: titlesixdown;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titlesixdownfromup {
+	0% {
+			top:398px;
+			opacity: 0.6;
+			font-size:30px;
+	}
+	50% {
+		opacity:0.6;
+	}
+	100% {
+			font-size:30px;
+			opacity:0.6;
+			top:780px;
+		
+	}
+}
+
+.title6downfromup {
+	-webkit-animation-name: titlesixdownfromup;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titlesevenactive {
+	0% {
+	}
+	50% {
+		top:470px;
+		font-size:30px;
+		opacity:1;	
+	}
+	100% {
+		top:470px;
+		font-size:40px;
+		opacity:1;	
+	}
+}
+
+.title7active {
+	-webkit-animation-name: titlesevenactive;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+
+
 @-webkit-keyframes titlesevenup {
 
 	
@@ -1005,6 +1314,84 @@ time, mark, audio, video {
 	-webkit-animation-duration: 3s;
     
 }
+
+@-webkit-keyframes titlesevendown {
+	0% {
+			top:470px;
+			font-size:40px;
+			opacity:1;
+	}
+	50% {
+		opacity:0.6;
+	}
+	100% {
+		font-size:30px;
+		opacity:0.6;
+		top:825px;
+		
+	}
+}
+
+.title7down {
+	-webkit-animation-name: titlesevendown;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titlesevendownfromup {
+	0% {
+		top:443px;
+		opacity: 0.6;
+		font-size:30px;
+	}
+	50% {
+		opacity:0.6;
+	}
+	100% {
+		font-size:30px;
+		opacity:0.6;
+		top:825px;
+		
+	}
+}
+
+.title7downfromup {
+	-webkit-animation-name: titlesevendownfromup;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titleeightactive {
+	0% {
+	}
+	50% {
+		top:580px;
+		font-size:30px;
+		opacity:1;	
+	}
+	100% {
+		top:580px;
+		font-size:35px;
+		opacity:1;	
+	}
+}
+
+
+
+
+
+.title8active {
+	-webkit-animation-name: titleeightactive;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
 
 @-webkit-keyframes titleeightup {
 
@@ -1030,6 +1417,79 @@ time, mark, audio, video {
     
 }
 
+@-webkit-keyframes titleeightdown {
+	0% {
+		top:580px;
+		font-size:35px;
+		opacity:1;
+	}
+	50% {
+		opacity:0.6;
+	}
+	100% {
+		font-size:30px;
+		opacity:0.6;
+		top:870px;
+		
+	}
+}
+
+.title8down {
+	-webkit-animation-name: titleeightdown;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titleeightdownfromup {
+	0% {
+		top:488px;
+		opacity: 0.6;
+		font-size:30px;
+	}
+	50% {
+		opacity:0.6;
+	}
+	100% {
+		font-size:30px;
+		opacity:0.6;
+		top:870px;
+	}
+}
+
+.title8downfromup {
+	-webkit-animation-name: titleeightdownfromup;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titlenineactive {
+	0% {
+	}
+	50% {
+		top:575px;
+		font-size:30px;
+		opacity:1;	
+	}
+	100% {
+		top:575px;
+		font-size:40px;
+		opacity:1;	
+	}
+}
+
+
+.title9active {
+	-webkit-animation-name: titlenineactive;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
 @-webkit-keyframes titlenineup {
 
 	
@@ -1048,6 +1508,104 @@ time, mark, audio, video {
 
 .title9up {
 	-webkit-animation-name: titlenineup;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titleninedown {
+	0% {
+		top:575px;
+		font-size:40px;
+		opacity:1;
+	}
+	50% {
+		opacity:0.6;
+	}
+	100% {
+		font-size:30px;
+		opacity:0.6;
+		top:915px;
+		
+	}
+}
+
+.title9down {
+	-webkit-animation-name: titleninedown;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titleninedownfromup {
+	0% {
+		top:533px;
+		opacity: 0.6;
+		font-size:30px;
+	}
+	50% {
+		opacity:0.6;
+	}
+	100% {
+		font-size:30px;
+		opacity:0.6;
+		top:915px;
+	}
+}
+
+.title9downfromup {
+	-webkit-animation-name: titleninedownfromup;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+
+@-webkit-keyframes titletenactive {
+	0% {
+	}
+	50% {
+		top:670px;
+		font-size:30px;
+		opacity:1;	
+	}
+	100% {
+		top:670px;
+		font-size:40px;
+		opacity:1;	
+	}
+}
+
+.title10active {
+	-webkit-animation-name: titletenactive;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+    
+}
+
+@-webkit-keyframes titletendown {
+	0% {
+		top:670px;
+		font-size:40px;
+		opacity:1;
+	}
+	50% {
+		opacity:0.6;
+	}
+	100% {
+		font-size:30px;
+		opacity:0.6;
+		top:960px;
+		
+	}
+}
+
+.title10down {
+	-webkit-animation-name: titletendown;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-fill-mode: forwards;
 	-webkit-animation-duration: 3s;
@@ -1221,9 +1779,9 @@ time, mark, audio, video {
 	position:absolute;
 	text-align:justify;
 	font-family:'Hoefler Text';
-	font-size:20px;
+	font-size:35px;
 	width:600px;
-	top:60px;
+	top:540px;
 	left:84px;
 }
 
@@ -1243,9 +1801,9 @@ time, mark, audio, video {
 	position:absolute;
 	text-align:justify;
 	font-family:'Hoefler Text';
-	font-size:20px;
+	font-size:35px;
 	width:600px;
-	top:60px;
+	top:650px;
 	left:84px;
 }
 
@@ -1266,9 +1824,9 @@ time, mark, audio, video {
 	position:absolute;
 	text-align:justify;
 	font-family:'Hoefler Text';
-	font-size:20px;
+	font-size:35px;
 	width:600px;
-	top:60px;
+	top:635px;
 	left:84px;
 }
 
@@ -1289,9 +1847,9 @@ time, mark, audio, video {
 	position:absolute;
 	text-align:justify;
 	font-family:'Hoefler Text';
-	font-size:20px;
+	font-size:33px;
 	width:600px;
-	top:60px;
+	top:750px;
 	left:84px;
 }
 

@@ -11,6 +11,8 @@ jQuery(function() {
 		
 		var smow = jQuery('#cowSmall');
 		
+		document.getElementById('cowfall').play();
+		
 		smow.addClass('littlecowclick');
 		
 		setTimeout(function() {	

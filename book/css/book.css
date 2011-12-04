@@ -171,6 +171,25 @@ time, mark, audio, video {
 }
 
 
+@-webkit-keyframes appeardigger {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.appeardigger {
+	-webkit-animation-name: appeardigger;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 6s;
+}
+
 
 @-webkit-keyframes appear {
 	0% {
@@ -187,6 +206,15 @@ time, mark, audio, video {
 	-webkit-animation-fill-mode: forwards;
 	-webkit-animation-duration: 2s;
 }
+
+
+.appearcred {
+	-webkit-animation-name: appeardigger;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 4s;
+}
+
 
 @-webkit-keyframes disappear {
 	0% {
@@ -2096,6 +2124,8 @@ time, mark, audio, video {
 	height: 1024px;
 	text-align:left;
 	background-color: #ccccff;
+	background-image: url(../images/redbg.png);		
+	
 }
 
 #escapeTitle {
@@ -2332,16 +2362,25 @@ time, mark, audio, video {
 }
 
 #pianoPic {
-	position:relative;
-	width: 328px;
-	height: 365px;
-	margin-top: 10px;
-	margin-right: 10px;
+	position:absolute;
+	width: 600px;
+	height: 652px;
+	margin-top: 400px;
 	float: left;
-	background-image: url(../images/piano.png);	
-	display:block;	
+	background-image: url(../images/piano.png);
+	opacity:0.1;
 }
 
+#faz {
+	position:absolute;
+	width: 489px;
+	height: 643px;
+	margin-top: 0px;
+	margin-left: 250px;
+	float: left;
+	background-image: url(../images/deadface.png);
+	opacity:0.1;
+}
 
 /* END OF CSS FOR PAGE 004 */	
 
@@ -2352,7 +2391,7 @@ time, mark, audio, video {
 	width: 768px;
 	height: 1024px;
 	text-align:left;
-	background-color: #cc9966;
+	background-color: black;
 	background-image: url(../images/orangebg2.png);	
 	
 }
@@ -2389,10 +2428,10 @@ time, mark, audio, video {
 
 
 
-/* END OF CSS FOR PAGE 004 */	
+/* END OF CSS FOR PAGE 005 */	
 
 
-/* CSS FOR PAGE 005 */	
+/* CSS FOR PAGE 006 */	
 
 #wrapper006 {
 	width: 768px;
@@ -2457,30 +2496,29 @@ time, mark, audio, video {
 	width:730px;
 }
 
-/* END OF CSS FOR PAGE 005 */	
+/* END OF CSS FOR PAGE 006 */	
 
 
 
 /* CSS FOR CREDITS PAGE */	
 
-#squidPic {
-	position:absolute;
-	width: 786px;
-	height: 532px;
-	top: 460px;
-	left:-18px;
-	background-image: url(../images/squidsinblue.png);	
+#wrapperCred {
+	width: 768px;
+	height: 1024px;
+	text-align:left;
+	background-color: black;
+	background-image: url(../images/bluebg.png);	
 }
 
 #creditTextTitle {
 	position:absolute;
-	text-align:justify;
+	text-align:center;
 	font-family:'Hoefler Text';
-	color:#ccccff;
+	color:black;
 	font-size:60px;
-	width:350px;
-	top:70px;
-	left:430px;
+	width: 768px;
+	top:400px;
+	left:0px;
 }
 
 
@@ -2488,12 +2526,11 @@ time, mark, audio, video {
 	position:absolute;
 	text-align:justify;
 	font-family:'Hoefler Text';
-	color:#ccccff;
-	font-size:25px;
-	top:340px;
-	left:84px;
+	color:black;
+	font-size:20px;
+	top:860px;
+	left:25px;
 }
-
 
 
 /* END OF CSS FOR CREDITS PAGE */	

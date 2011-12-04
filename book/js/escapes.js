@@ -1479,13 +1479,11 @@ jQuery(function() {
 		
 				if (animating == 'three') {
 					
-						title2.removeClass();
 						title3.removeClass();
 						title4.removeClass();
 						title5.removeClass();
 
 
-						text2.removeClass();
 						text3.removeClass();
 						text4.removeClass();
 						text5.removeClass();
@@ -1507,14 +1505,10 @@ jQuery(function() {
 				
 					if (animating == 'four') {
 						
-							title2.removeClass();
-							title3.removeClass();
 							title4.removeClass();
 							title5.removeClass();
 
 
-							text2.removeClass();
-							text3.removeClass();
 							text4.removeClass();
 							text5.removeClass();
 
@@ -1534,15 +1528,9 @@ jQuery(function() {
 					
 					if (animating == 'five') {
 						
-							title2.removeClass();
-							title3.removeClass();
-							title4.removeClass();
 							title5.removeClass();
 
 
-							text2.removeClass();
-							text3.removeClass();
-							text4.removeClass();
 							text5.removeClass();
 
 					title5.addClass('title5upfromactive');
@@ -2741,7 +2729,7 @@ jQuery(function() {
 
 												text9.removeClass();
 
-										title9.addClass('title9up');
+										title9.addClass('title9upfromactive');
 
 										title10.addClass('title10active')
 

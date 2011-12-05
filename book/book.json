@@ -1,0 +1,29 @@
+{
+    "hpub": 1,
+    "title": "Husk",
+    "author": ["Ben Martin, Charlie Gerstrom, Ed Millington"],
+    "creator": ["Ed Millington"],
+    "date": "05-12-2011",
+    "url": "http://husk.awardspace.com",
+
+    "orientation": "portrait",
+    "zoomable": false,
+
+    "-baker-background": "#000000",
+    "-baker-vertical-bounce": false,
+    "-baker-index-height": 202,
+    "-baker-media-autoplay": false,
+    "-baker-page-numbers-color": "#000000",
+	"-baker-page-numbers-alpha": "1",
+
+    "contents": [
+        "_cover.html",
+        "001.html",
+        "002.html",
+        "003.html",
+        "004.html",
+        "005.html",
+        "006.html",  
+        "credits.html"
+    ]
+}

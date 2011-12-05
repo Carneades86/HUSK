@@ -30,6 +30,11 @@ time, mark, audio, video {
 
 /* End of browser reset styles */
 
+body {
+	overflow: hidden;
+}
+
+
 /* FONTS */
 
 @font-face {
